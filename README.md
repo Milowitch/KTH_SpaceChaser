@@ -14,7 +14,7 @@ Keywords: Multi-robot systems, distributed control, MPC, ROS2, Gazebo, ATMOS
 - Generate **cost matrix heatmaps** for assignment visualization.
 
 ---
-# ---------------- PARAMETERS ----------------
+## PARAMETERS 
 n = 0.011                   # orbital mean motion (rad/s)
 R_orbit = 1.0               # docking port orbit radius
 SPHERE_RADIUS = R_orbit
@@ -22,8 +22,9 @@ PORT_W = 0.5                # angular speed of docking port
 T_min, T_max = 10, 100
 num_points = 50             #number of Time point 
 steps = 200
-slope_threshold = 0.01  
+slope_threshold = 0.01    #selecting slop for path ( in 3Sc simulation)
 REPULSION_K = 0.05      # keep-out repulsion gain
+--
 ## Dependencies
 
 - Python 3.8+ , Compiled with Python 3.12.3
