@@ -15,16 +15,17 @@ Keywords: Multi-robot systems, distributed control, MPC, ROS2, Gazebo, ATMOS
 
 ---
 ## PARAMETERS 
-n = 0.011                   # orbital mean motion (rad/s)
-R_orbit = 1.0               # docking port orbit radius
-SPHERE_RADIUS = R_orbit
-PORT_W = 0.5                # angular speed of docking port
-T_min, T_max = 10, 100
-num_points = 50             #number of Time point 
-steps = 200
-slope_threshold = 0.01    #selecting slop for path ( in 3Sc simulation)
-REPULSION_K = 0.05      # keep-out repulsion gain
---
+- n = 0.011              # Orbital mean motion (rad/s)
+- R_orbit = 1.0          # Docking port orbit radius
+- SPHERE_RADIUS = R_orbit
+- PORT_W = 0.5            # Angular speed of docking port
+- T_min, T_max = 10, 100 # Minimum and maximum docking times
+- num_points = 50         # Number of time points
+- steps = 200             # Integration steps for trajectory
+- slope_threshold = 0.01  # Selecting slope threshold for path (3-Sc simulation)
+- REPULSION_K = 0.05      # Keep-out repulsion gain
+
+---
 ## Dependencies
 
 - Python 3.8+ , Compiled with Python 3.12.3
