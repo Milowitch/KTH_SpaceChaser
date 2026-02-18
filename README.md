@@ -1,9 +1,8 @@
-# KTH_SpaceChaser n Multi-Spacecraft Docking Simulation
-Collaborative Capture of Tumbling Space Assets in Microgravity Environments Keywords: Multi-robot systems, distributed control, MPC, ROS2, Gazebo, ATMOS
-
+# KTH_SpaceChaser- Collaborative Capture of Tumbling Space Assets in Microgravity Environments
 This project simulates **multi-chaser spacecraft docking** in a circular orbit using **Clohessy-Wiltshire (CW) linear dynamics** and **minimum-energy control**.  
 The simulation computes optimal docking times, fuel usage, trajectories, and control inputs for multiple spacecraft docking at rotating ports.
 ---
+Keywords: Multi-robot systems, distributed control, MPC, ROS2, Gazebo, ATMOS
 
 ## Features
 
