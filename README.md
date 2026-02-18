@@ -17,7 +17,7 @@ Keywords: Multi-robot systems, distributed control, MPC, ROS2, Gazebo, ATMOS
 
 ## Dependencies
 
-- Python 3.8+
+- Python 3.8+ , Compiled with Python 3.12.3
 - [NumPy](https://numpy.org/)  
 - [SciPy](https://www.scipy.org/)  
 - [Matplotlib](https://matplotlib.org/)  
